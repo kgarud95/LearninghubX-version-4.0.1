@@ -17,7 +17,6 @@ import BlogPage from './components/BlogPage';
 import PaymentCheckout from './components/PaymentCheckout';
 import ProgressTracker from './components/ProgressTracker';
 import DiscussionForum from './components/DiscussionForum';
-import AdminDashboard from './components/AdminDashboard';
 import QuizInterface from './components/QuizInterface';
 import LiveClassInterface from './components/LiveClassInterface';
 import AssignmentSubmission from './components/AssignmentSubmission';
