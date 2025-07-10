@@ -191,8 +191,8 @@ function App() {
           
           <Footer setCurrentPage={setCurrentPage} />
           
-          {/* AI Tutor Chat - Always available */}
-          <AITutorChat />
+          {/* AI Tutor Chat - Only available when logged in */}
+          {isLoggedIn && <AITutorChat />}
           
           {/* Modals */}
           {showLoginModal && (
